@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            style="@style/textView"
+            android:text="Add Service"
+            android:textSize="24sp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            style="@style/textView"
+            android:text="Service Name"/>
+        <EditText
+            android:id="@+id/etxt_sn"
+            style="@style/editText" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Category"/>
+        <EditText
+            android:id="@+id/etxt_c"
+            style="@style/editText" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Service Details"/>
+        <EditText
+            android:id="@+id/etxt_sd"
+            style="@style/editText" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Mode"/>
+        <EditText
+            android:id="@+id/etxt_m"
+            style="@style/editText" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Provider"/>
+        <EditText
+            android:id="@+id/etxt_p"
+            style="@style/editText"
+            android:hint="Select Provider" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Service Type"/>
+        <EditText
+            android:id="@+id/etxt_st"
+            style="@style/editText" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Start Count Type"/>
+        <EditText
+            android:id="@+id/etxt_sct"
+            style="@style/editText" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Drip Feed"/>
+        <EditText
+            android:id="@+id/etxt_dpf"
+            style="@style/editText" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Rate per 1000"/>
+        <EditText
+            android:id="@+id/etxt_rp"
+            style="@style/editText" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Price Visibility"/>
+        <EditText
+            android:id="@+id/etxt_pv"
+            style="@style/editText" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Min Order"/>
+        <EditText
+            android:id="@+id/etxt_mio"
+            style="@style/editText" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Max Order"/>
+        <EditText
+            android:id="@+id/etxt_mao"
+            style="@style/editText" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Overflow"/>
+        <EditText
+            android:id="@+id/etxt_of"
+            style="@style/editText" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Downflow"/>
+        <EditText
+            android:id="@+id/etxt_df"
+            style="@style/editText" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_as"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/cobaltblue"
+                android:text="Add Service"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+            <Button
+                android:id="@+id/btn_asClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

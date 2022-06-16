@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/textView"
+        android:text="Add Payment"
+        android:textSize="24sp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        style="@style/textView"
+        android:text="Username"/>
+
+    <EditText
+        android:id="@+id/etxt_un"
+        style="@style/editText" />
+    <TextView
+        style="@style/textView"
+        android:text="Funds Type"/>
+
+    <EditText
+        android:id="@+id/etxt_ft"
+        style="@style/editText" />
+    <TextView
+        style="@style/textView"
+        android:text="Amount ($)"/>
+
+    <EditText
+        android:id="@+id/etxt_amount"
+        style="@style/editText" />
+    <TextView
+        style="@style/textView"
+        android:text="Transaction Details"/>
+
+    <EditText
+        android:id="@+id/etxt_td"
+        style="@style/editText" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take in affiliate commission"
+        android:textSize="16sp"
+        android:layout_margin="5dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/cobaltblue"
+            android:padding="5dp"
+            android:text="Add Payment"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_apClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Smmpanel</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="cg">Category</string>
+    <string name="c">Charge</string>
+    <string name="cp">Confirm Password</string>
+    <string name="ds">Description</string>
+    <string name="dha">Do not have an account?</string>
+    <string name="em">EMail</string>
+    <string name="fpl">Facebook Pages Likes</string>
+    <string name="fp">Forgot Password?</string>
+    <string name="ifg">Instagram Followers Guarantee</string>
+    <string name="l">Link</string>
+    <string name="li">Log In</string>
+    <string name="min_max">Min: 1000 - Max: 1000</string>
+    <string name="pw">Password</string>
+    <string name="qt">Quantity</string>
+    <string name="rm">Remember Me</string>
+    <string name="sm">Submit</string>
+    <string name="sv">Service</string>
+    <string name="su">Sign Up</string>
+    <string name="tktkf">TikTok Followers</string>
+    <string name="tf">Twitter Followers</string>
+    <string name="un">User Name</string>
+    <string name="ycmp">Youtube Channel Monetization Package</string>
+    <string name="yes">Youtube Earning Service</string>
+    <string name="ys">Youtube <b>Subscribers</b></string>
+    <string name="yv">Youtube Views</string>
+    <string name="yws">Youtube Watchtime Services</string>
+
+    <string-array name="numbers">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+        <item>four</item>
+        <item>five</item>
+        <item>Go To strings.xml to change this</item>
+    </string-array>
+
+</resources>

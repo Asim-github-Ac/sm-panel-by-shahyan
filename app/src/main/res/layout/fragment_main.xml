@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.main.MainFragment"
+    android:orientation="vertical"
+    android:background="@color/lightgray">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/platinum"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+                style="@style/textView"
+                android:text="@string/cg"/>
+
+<!--
+            <EditText
+                android:id="@+id/etxt_Category"
+                style="@style/editText"
+                android:drawableEnd="@drawable/ic_unfold_more"
+                android:drawableTint="@color/black"
+                android:focusable="false"/>
+-->
+            <Spinner
+                android:id="@+id/spinner"
+                style="@style/editText" />
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/sv"/>
+            <Spinner
+                style="@style/editText"
+                android:id="@+id/servicename"
+                android:drawableEnd="@drawable/ic_unfold_more"
+                android:drawableTint="@color/black"
+                />
+            <TextView
+
+                style="@style/textView"
+                android:text="@string/ds"/>
+            <EditText
+                style="@style/editText"
+                android:id="@+id/description"
+                />
+            <TextView
+                style="@style/textView"
+                android:text="@string/l"/>
+            <EditText
+                style="@style/editText"
+                android:id="@+id/link"
+                />
+            <TextView
+                style="@style/textView"
+                android:text="@string/qt"/>
+            <EditText
+                style="@style/editText"
+                android:id="@+id/quantity"
+                />
+            <TextView
+                style="@style/textView"
+                android:text="@string/min_max"
+                android:textStyle="normal"
+                android:textColor="@color/gray"
+                android:layout_marginTop="-7dp"
+                android:layout_marginStart="7dp"/>
+            <TextView
+                style="@style/textView"
+                android:text="@string/c"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                style="@style/editText"
+                android:id="@+id/charge"
+                android:text="0.0"
+                />
+            <Button
+                android:id="@+id/btn_Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/brightblue"
+                android:text="@string/sm"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

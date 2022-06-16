@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_yes"
+            style="@style/radio"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/radio_ys"
+            style="@style/radio"
+            android:text="@string/ys" />
+
+        <RadioButton
+            android:id="@+id/radio_ycmp"
+            style="@style/radio"
+            android:text="@string/ycmp" />
+
+        <RadioButton
+            android:id="@+id/radio_yws"
+            style="@style/radio"
+            android:text="@string/yws" />
+
+        <RadioButton
+            android:id="@+id/radio_fpl"
+            style="@style/radio"
+            android:text="@string/fpl" />
+
+        <RadioButton
+            android:id="@+id/radio_yv"
+            style="@style/radio"
+            android:text="@string/yv" />
+
+        <RadioButton
+            android:id="@+id/radio_ifg"
+            style="@style/radio"
+            android:text="@string/ifg" />
+
+        <RadioButton
+            android:id="@+id/radio_tktkf"
+            style="@style/radio"
+            android:text="@string/tktkf" />
+
+        <RadioButton
+            android:id="@+id/radio_tf"
+            style="@style/radio"
+            android:text="@string/tf" />
+    </RadioGroup>
+</androidx.cardview.widget.CardView>

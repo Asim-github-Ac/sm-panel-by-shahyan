@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admins.SplashScreen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash"
+        android:layout_marginTop="100dp"
+        android:id="@+id/img"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:id="@+id/btn1"
+        android:text="Admin"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/img"
+        android:background="@drawable/btn_shape"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="User"
+        android:id="@+id/userpanel"
+        android:textSize="20dp"
+        android:layout_below="@+id/btn1"
+        android:background="@drawable/btn_shape"
+        />
+</LinearLayout>

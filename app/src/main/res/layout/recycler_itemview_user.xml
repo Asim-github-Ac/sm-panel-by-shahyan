@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/r_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="Id"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/r_UserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="User Name"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/r_EMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="EMail"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/r_Skype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="Skype"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/r_Balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="Balance"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/r_Spent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="Spent"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/r_Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="Status"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/r_Created"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="Created"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/r_LastAuth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="Last Auth"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/r_Rates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="Rates"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/r_Actions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="Actions"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+</HorizontalScrollView>
